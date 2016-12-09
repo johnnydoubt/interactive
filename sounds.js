@@ -1,5 +1,5 @@
 $(function(){
-$("#1").click(function(){
+$("#1").mouseover(function(){
         var audio = $('audio')[0];
         if (audio.paused){
             audio.play();
@@ -7,7 +7,7 @@ $("#1").click(function(){
             audio.pause();
         }
 });
-$("#2").click(function(){
+$("#2").mouseover(function(){
         var audio = $('audio')[1];
         if (audio.paused){
             audio.play();
@@ -15,7 +15,7 @@ $("#2").click(function(){
             audio.pause();
         }
 });
-$("#3").click(function(){
+$("#3").mouseover(function(){
         var audio = $('audio')[0];
         if (audio.paused){
             audio.play();
@@ -23,7 +23,7 @@ $("#3").click(function(){
             audio.pause();
         }
 });
-$("#4").click(function(){
+$("#4").mouseover(function(){
         var audio = $('audio')[1];
         if (audio.paused){
             audio.play();
@@ -31,7 +31,7 @@ $("#4").click(function(){
             audio.pause();
         }
 });
-$("#5").click(function(){
+$("#5").mouseover(function(){
         var audio = $('audio')[0];
         if (audio.paused){
             audio.play();
@@ -39,7 +39,7 @@ $("#5").click(function(){
             audio.pause();
         }
 });
-$("#6").click(function(){
+$("#6").mouseover(function(){
         var audio = $('audio')[1];
         if (audio.paused){
             audio.play();
@@ -47,7 +47,7 @@ $("#6").click(function(){
             audio.pause();
         }
 });
-$("#7").click(function(){
+$("#7").mouseover(function(){
         var audio = $('audio')[0];
         if (audio.paused){
             audio.play();
@@ -55,7 +55,7 @@ $("#7").click(function(){
             audio.pause();
         }
 });
-$("#8").click(function(){
+$("#8").mouseover(function(){
         var audio = $('audio')[1];
         if (audio.paused){
             audio.play();
@@ -63,7 +63,7 @@ $("#8").click(function(){
             audio.pause();
         }
 });
-$("#9").click(function(){
+$("#9").mouseover(function(){
         var audio = $('audio')[0];
         if (audio.paused){
             audio.play();
@@ -71,7 +71,7 @@ $("#9").click(function(){
             audio.pause();
         }
 });
-$("#10").click(function(){
+$("#10").mouseover(function(){
         var audio = $('audio')[1];
         if (audio.paused){
             audio.play();
@@ -79,7 +79,7 @@ $("#10").click(function(){
             audio.pause();
         }
 });
-$("#11").click(function(){
+$("#11").mouseover(function(){
         var audio = $('audio')[0];
         if (audio.paused){
             audio.play();
@@ -87,7 +87,7 @@ $("#11").click(function(){
             audio.pause();
         }
 });
-$("#12").click(function(){
+$("#12").mouseover(function(){
         var audio = $('audio')[1];
         if (audio.paused){
             audio.play();
@@ -95,7 +95,7 @@ $("#12").click(function(){
             audio.pause();
         }
 });
-$("#13").click(function(){
+$("#13").mouseover(function(){
         var audio = $('audio')[0];
         if (audio.paused){
             audio.play();
@@ -103,7 +103,7 @@ $("#13").click(function(){
             audio.pause();
         }
 });
-$("#14").click(function(){
+$("#14").mouseover(function(){
         var audio = $('audio')[1];
         if (audio.paused){
             audio.play();
@@ -111,7 +111,7 @@ $("#14").click(function(){
             audio.pause();
         }
 });
-$("#15").click(function(){
+$("#15").mouseover(function(){
         var audio = $('audio')[0];
         if (audio.paused){
             audio.play();
@@ -119,7 +119,7 @@ $("#15").click(function(){
             audio.pause();
         }
 });
-$("#16").click(function(){
+$("#16").mouseover(function(){
         var audio = $('audio')[1];
         if (audio.paused){
             audio.play();
@@ -127,7 +127,7 @@ $("#16").click(function(){
             audio.pause();
         }
 });
-$("#17").click(function(){
+$("#17").mouseover(function(){
         var audio = $('audio')[0];
         if (audio.paused){
             audio.play();
@@ -135,7 +135,7 @@ $("#17").click(function(){
             audio.pause();
         }
 });
-$("#18").click(function(){
+$("#18").mouseover(function(){
         var audio = $('audio')[1];
         if (audio.paused){
             audio.play();
@@ -143,7 +143,7 @@ $("#18").click(function(){
             audio.pause();
         }
 });
-$("#19").click(function(){
+$("#19").mouseover(function(){
         var audio = $('audio')[0];
         if (audio.paused){
             audio.play();
@@ -151,7 +151,7 @@ $("#19").click(function(){
             audio.pause();
         }
 });
-$("#20").click(function(){
+$("#20").mouseover(function(){
         var audio = $('audio')[1];
         if (audio.paused){
             audio.play();
@@ -159,7 +159,7 @@ $("#20").click(function(){
             audio.pause();
         }
 });
-$("#21").click(function(){
+$("#21").mouseover(function(){
         var audio = $('audio')[0];
         if (audio.paused){
             audio.play();
@@ -167,7 +167,7 @@ $("#21").click(function(){
             audio.pause();
         }
 });
-$("#22").click(function(){
+$("#22").mouseover(function(){
         var audio = $('audio')[1];
         if (audio.paused){
             audio.play();
@@ -175,7 +175,7 @@ $("#22").click(function(){
             audio.pause();
         }
 });
-$("#23").click(function(){
+$("#23").mouseover(function(){
         var audio = $('audio')[0];
         if (audio.paused){
             audio.play();
@@ -183,12 +183,12 @@ $("#23").click(function(){
             audio.pause();
         }
 });
-$("#24").click(function(){
+$("#24").mouseover(function(){
         var audio = $('audio')[1];
         if (audio.paused){
             audio.play();
         } else {
             audio.pause();
-        }
+}
 });
 });
