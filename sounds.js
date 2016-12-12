@@ -1,6 +1,6 @@
 $(function(){
 $("#1").mouseover(function(){
-        var audio = $('audio')[0];
+        let audio = $('audio')[0];
         if (audio.paused){
             audio.play();
         } else {
@@ -8,7 +8,7 @@ $("#1").mouseover(function(){
         }
 });
 $("#2").mouseover(function(){
-        var audio = $('audio')[1];
+        let audio = $('audio')[1];
         if (audio.paused){
             audio.play();
         } else {
@@ -16,7 +16,7 @@ $("#2").mouseover(function(){
         }
 });
 $("#3").mouseover(function(){
-        var audio = $('audio')[0];
+        let audio = $('audio')[2];
         if (audio.paused){
             audio.play();
         } else {
@@ -24,7 +24,7 @@ $("#3").mouseover(function(){
         }
 });
 $("#4").mouseover(function(){
-        var audio = $('audio')[1];
+        let audio = $('audio')[3];
         if (audio.paused){
             audio.play();
         } else {
@@ -32,7 +32,7 @@ $("#4").mouseover(function(){
         }
 });
 $("#5").mouseover(function(){
-        var audio = $('audio')[0];
+        let audio = $('audio')[4];
         if (audio.paused){
             audio.play();
         } else {
@@ -40,7 +40,7 @@ $("#5").mouseover(function(){
         }
 });
 $("#6").mouseover(function(){
-        var audio = $('audio')[1];
+        let audio = $('audio')[5];
         if (audio.paused){
             audio.play();
         } else {
@@ -48,7 +48,7 @@ $("#6").mouseover(function(){
         }
 });
 $("#7").mouseover(function(){
-        var audio = $('audio')[0];
+        let audio = $('audio')[6];
         if (audio.paused){
             audio.play();
         } else {
@@ -56,7 +56,7 @@ $("#7").mouseover(function(){
         }
 });
 $("#8").mouseover(function(){
-        var audio = $('audio')[1];
+        let audio = $('audio')[7];
         if (audio.paused){
             audio.play();
         } else {
@@ -64,7 +64,7 @@ $("#8").mouseover(function(){
         }
 });
 $("#9").mouseover(function(){
-        var audio = $('audio')[0];
+        let audio = $('audio')[8];
         if (audio.paused){
             audio.play();
         } else {
@@ -72,7 +72,7 @@ $("#9").mouseover(function(){
         }
 });
 $("#10").mouseover(function(){
-        var audio = $('audio')[1];
+        let audio = $('audio')[9];
         if (audio.paused){
             audio.play();
         } else {
@@ -80,7 +80,7 @@ $("#10").mouseover(function(){
         }
 });
 $("#11").mouseover(function(){
-        var audio = $('audio')[0];
+        let audio = $('audio')[10];
         if (audio.paused){
             audio.play();
         } else {
@@ -88,7 +88,7 @@ $("#11").mouseover(function(){
         }
 });
 $("#12").mouseover(function(){
-        var audio = $('audio')[1];
+        let audio = $('audio')[11];
         if (audio.paused){
             audio.play();
         } else {
@@ -96,7 +96,7 @@ $("#12").mouseover(function(){
         }
 });
 $("#13").mouseover(function(){
-        var audio = $('audio')[0];
+        let audio = $('audio')[12];
         if (audio.paused){
             audio.play();
         } else {
@@ -104,7 +104,7 @@ $("#13").mouseover(function(){
         }
 });
 $("#14").mouseover(function(){
-        var audio = $('audio')[1];
+        let audio = $('audio')[13];
         if (audio.paused){
             audio.play();
         } else {
@@ -112,7 +112,7 @@ $("#14").mouseover(function(){
         }
 });
 $("#15").mouseover(function(){
-        var audio = $('audio')[0];
+        let audio = $('audio')[14];
         if (audio.paused){
             audio.play();
         } else {
@@ -120,15 +120,15 @@ $("#15").mouseover(function(){
         }
 });
 $("#16").mouseover(function(){
-        var audio = $('audio')[1];
-        if (audio.paused){
+        let audio = $('audio')[15];
+        if (audio.pause) {
             audio.play();
         } else {
             audio.pause();
         }
 });
 $("#17").mouseover(function(){
-        var audio = $('audio')[0];
+        let audio = $('audio')[16];
         if (audio.paused){
             audio.play();
         } else {
@@ -136,7 +136,7 @@ $("#17").mouseover(function(){
         }
 });
 $("#18").mouseover(function(){
-        var audio = $('audio')[1];
+        let audio = $('audio')[17];
         if (audio.paused){
             audio.play();
         } else {
@@ -144,7 +144,7 @@ $("#18").mouseover(function(){
         }
 });
 $("#19").mouseover(function(){
-        var audio = $('audio')[0];
+        let audio = $('audio')[18];
         if (audio.paused){
             audio.play();
         } else {
@@ -152,7 +152,7 @@ $("#19").mouseover(function(){
         }
 });
 $("#20").mouseover(function(){
-        var audio = $('audio')[1];
+        let audio = $('audio')[19];
         if (audio.paused){
             audio.play();
         } else {
@@ -160,7 +160,7 @@ $("#20").mouseover(function(){
         }
 });
 $("#21").mouseover(function(){
-        var audio = $('audio')[0];
+        let audio = $('audio')[20];
         if (audio.paused){
             audio.play();
         } else {
@@ -168,7 +168,7 @@ $("#21").mouseover(function(){
         }
 });
 $("#22").mouseover(function(){
-        var audio = $('audio')[1];
+        let audio = $('audio')[21];
         if (audio.paused){
             audio.play();
         } else {
@@ -176,7 +176,7 @@ $("#22").mouseover(function(){
         }
 });
 $("#23").mouseover(function(){
-        var audio = $('audio')[0];
+        let audio = $('audio')[22];
         if (audio.paused){
             audio.play();
         } else {
@@ -184,7 +184,7 @@ $("#23").mouseover(function(){
         }
 });
 $("#24").mouseover(function(){
-        var audio = $('audio')[1];
+        let audio = $('audio')[23];
         if (audio.paused){
             audio.play();
         } else {
