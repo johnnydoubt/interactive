@@ -63,9 +63,10 @@ body {
 @media only screen and (max-width: 700px) {
     body {
         height: 200vh;
+        overflow:hidden; 
     }
     .effects:hover:before {
-      -webkit-transform: scaleX(3);
-      transform: scaleX(3);
+      -webkit-transform: scaleX(2);
+      transform: scaleX(2);
     }
 }
