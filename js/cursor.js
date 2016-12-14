@@ -18,7 +18,7 @@ var canvas = document.querySelector("#myCanvas");
       context.clearRect(0, 0, canvas.width, canvas.height);
 
       context.beginPath();
-      context.arc(mouseX, mouseY, 50, 0, 2 * Math.PI, true);
+      context.arc(mouseX, mouseY, 10, 0, 2 * Math.PI, true);
       context.fillStyle = "#FF6A6A";
       context.fill();
     }
@@ -27,7 +27,7 @@ var canvas = document.querySelector("#myCanvas");
       context.clearRect(0, 0, canvas.width, canvas.height);
 
       context.beginPath();
-      context.arc(mouseX, mouseY, 5, 0, 2 * Math.PI, true);
+      context.arc(mouseX, mouseY, 10, 0, 2 * Math.PI, true);
       context.fillStyle = "#FF6A6A";
       context.fill();
 
