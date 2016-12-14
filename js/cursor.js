@@ -32,7 +32,7 @@ window.onload = function() {
        this.y += this.vy;        if (Math.random() < 0.1) {
          this.vx = Math.random() * 10 - 5;
          this.vy = Math.random() * 10 - 5;
-       }        //this.vy += this.gravity;
+       }        
        this.life++;        if (this.life >= this.maxLife){
          delete particles[this.id];
       }        c.fillStyle = this.color
