@@ -1,18 +1,85 @@
 body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
 }
+#boxes {
+  position:relative;
+}
+#myCanvas {
 
+   position:absolute;
+   top:0;
+    left:0;
+     z-index:0
+}
 .note {
-  width: 100%;
- height: 40px;
- border: 1px solid white;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 4.16vh;
+    border: 1px solid white;
 }
 
-.note:hover {
+.effects:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to left, #67B26F, #4ca2cd);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    border: 1px solid yellow;
+}
 
-  /home/kloporth/Téléchargements/AFX/Red_Calx.mp3
+.effects:hover {
+    color: white;
+}
+
+.effects:hover:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+.effects {
+    display: table;
+    height: 100%;
+    width: 10%;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        height: 200vh;
+        overflow: hidden;
+    }
+    .effects:hover:before {
+        -webkit-transform: scaleX(2);
+        transform: scaleX(2);
+    }
 }
