@@ -1,15 +1,21 @@
+//constante pour stocket la position de la souris
 const app = { mouse: { x:0, y:0 }};
 
+//au mouvement de la souris récupère x et y du curseur
 document.addEventListener('mousemove', function(event){
   app.mouse.x = event.pageX;
   app.mouse.y = event.pageY;
 });
+// au chargement de la fenêtre dessine les particules
 window.onload = function() {
+     //crétation du canvas
      var canvas = document.createElement("canvas"),
      c = canvas.getContext("2d"),
+     //variable stockage et itération particules
      particles = {},
      particleIndex = 0,
      particleNum = 30;
+     //définition taille canvas
      canvas.width  = window.innerWidth;
      canvas.height = window.innerHeight;
      canvas.style = "margin:auto;";
@@ -32,7 +38,7 @@ window.onload = function() {
        this.y += this.vy;        if (Math.random() < 0.1) {
          this.vx = Math.random() * 10 - 5;
          this.vy = Math.random() * 10 - 5;
-       }        
+       }
        this.life++;        if (this.life >= this.maxLife){
          delete particles[this.id];
       }        c.fillStyle = this.color
