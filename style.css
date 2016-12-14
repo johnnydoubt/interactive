@@ -10,7 +10,7 @@ body {
 #boxes {
   position:relative;
 }
-#myCanvas {
+canvas {
 
    position:absolute;
    top:0;
