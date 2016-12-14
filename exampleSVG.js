@@ -28,3 +28,9 @@ function drawCircle() {
   oldCursor.x = cursor.x;
   oldCursor.y = cursor.y;
 };
+$(document).ready(function() {
+  $('#svg').svg();
+  svg = $('#svg').svg('get');
+  setInterval ('drawCircle()', 10);
+  document.onmousemove = onMouseMove;
+});
