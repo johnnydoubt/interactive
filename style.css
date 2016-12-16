@@ -8,15 +8,18 @@ body {
     background-color: black;
     cursor: none;
 }
+
 #boxes {
-  position:relative;
+    position: relative;
 }
+
 canvas {
-   position:absolute;
-   top:0;
-    left:0;
-     z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
+
 .note {
     box-sizing: border-box;
     display: flex;
@@ -25,15 +28,15 @@ canvas {
 }
 
 .note {
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  position: relative;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 1.2s;
-  transition-duration: 1.2s;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 1.2s;
+    transition-duration: 1.2s;
 }
 
 .note:before {
@@ -44,7 +47,7 @@ canvas {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to left, #67B26F, #4ca2cd);
+    background: linear-gradient(to left, #f6ff00, #ff0a0a);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -69,12 +72,10 @@ canvas {
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
-
 .effects {
     display: table;
     height: 100%;
     width: 10%;
-
 }
 
 @media only screen and (max-width: 700px) {
