@@ -1,6 +1,6 @@
 $(function() {
     $("#1").mouseover(function() {
-        let audio = $('audio')[0];
+      let audio = new Audio('sounds/A.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -8,7 +8,7 @@ $(function() {
         }
     });
     $("#2").mouseover(function() {
-        let audio = $('audio')[1];
+      let audio = new Audio('sounds/B.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -16,7 +16,7 @@ $(function() {
         }
     });
     $("#3").mouseover(function() {
-        let audio = $('audio')[2];
+      let audio = new Audio('sounds/C.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -24,7 +24,7 @@ $(function() {
         }
     });
     $("#4").mouseover(function() {
-        let audio = $('audio')[3];
+      let audio = new Audio('sounds/D.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -32,7 +32,7 @@ $(function() {
         }
     });
     $("#5").mouseover(function() {
-        let audio = $('audio')[4];
+      let audio = new Audio('sounds/E.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -40,7 +40,7 @@ $(function() {
         }
     });
     $("#6").mouseover(function() {
-        let audio = $('audio')[5];
+      let audio = new Audio('sounds/F.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -48,7 +48,7 @@ $(function() {
         }
     });
     $("#7").mouseover(function() {
-        let audio = $('audio')[6];
+      let audio = new Audio('sounds/G.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -56,7 +56,7 @@ $(function() {
         }
     });
     $("#8").mouseover(function() {
-        let audio = $('audio')[7];
+      let audio = new Audio('sounds/H.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -64,7 +64,7 @@ $(function() {
         }
     });
     $("#9").mouseover(function() {
-        let audio = $('audio')[8];
+      let audio = new Audio('sounds/J.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -72,7 +72,7 @@ $(function() {
         }
     });
     $("#10").mouseover(function() {
-        let audio = $('audio')[9];
+      let audio = new Audio('sounds/K.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -80,7 +80,7 @@ $(function() {
         }
     });
     $("#11").mouseover(function() {
-        let audio = $('audio')[10];
+        let audio = new Audio('sounds/L.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -88,7 +88,7 @@ $(function() {
         }
     });
     $("#12").mouseover(function() {
-        let audio = $('audio')[11];
+        let audio = new Audio('sounds/M.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -96,7 +96,7 @@ $(function() {
         }
     });
     $("#13").mouseover(function() {
-        let audio = $('audio')[12];
+        let audio = new Audio('sounds/N.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -104,7 +104,7 @@ $(function() {
         }
     });
     $("#14").mouseover(function() {
-        let audio = $('audio')[13];
+        let audio = new Audio('sounds/O.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -112,7 +112,7 @@ $(function() {
         }
     });
     $("#15").mouseover(function() {
-        let audio = $('audio')[14];
+        let audio = new Audio('sounds/P.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -120,7 +120,7 @@ $(function() {
         }
     });
     $("#16").mouseover(function() {
-        let audio = $('audio')[15];
+        let audio = new Audio('sounds/Q.wav');
         if (audio.pause) {
             audio.play();
         } else {
@@ -128,7 +128,7 @@ $(function() {
         }
     });
     $("#17").mouseover(function() {
-        let audio = $('audio')[16];
+        let audio = new Audio('sounds/R.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -136,7 +136,7 @@ $(function() {
         }
     });
     $("#18").mouseover(function() {
-        let audio = $('audio')[17];
+        let audio = new Audio('sounds/S.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -144,7 +144,7 @@ $(function() {
         }
     });
     $("#19").mouseover(function() {
-        let audio = $('audio')[18];
+        let audio = new Audio('sounds/T.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -152,7 +152,7 @@ $(function() {
         }
     });
     $("#20").mouseover(function() {
-        let audio = $('audio')[19];
+        let audio = new Audio('sounds/U.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -160,7 +160,7 @@ $(function() {
         }
     });
     $("#21").mouseover(function() {
-        let audio = $('audio')[20];
+        let audio = new Audio('sounds/V.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -168,7 +168,7 @@ $(function() {
         }
     });
     $("#22").mouseover(function() {
-        let audio = $('audio')[21];
+        let audio = new Audio('sounds/W.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -176,7 +176,7 @@ $(function() {
         }
     });
     $("#23").mouseover(function() {
-        let audio = $('audio')[22];
+        let audio = new Audio('sounds/X.wav');
         if (audio.paused) {
             audio.play();
         } else {
@@ -184,7 +184,7 @@ $(function() {
         }
     });
     $("#24").mouseover(function() {
-        let audio = $('audio')[23];
+        let audio = new Audio('sounds/Y.wav');
         if (audio.paused) {
             audio.play();
         } else {
