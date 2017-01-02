@@ -23,15 +23,13 @@ function getRandomColor() {
 }
 function drawCircle() {
   if (Math.abs(cursor.x - oldCursor.x) > 1 || Math.abs(cursor.y - oldCursor.y) > 1){
-    svg.circle(random(2000),random(2000), random(5) + 10, {fill:getRandomColor(), stroke: 'white','stroke-width':random(5)+1});
+    svg.circle(random(1600),random(1600), random(2) + 2, {fill: 'white', stroke: 'white','stroke-width':random(1)+1});
     i++;
-    console.log(i);
   }
-  if (i > 100) {
+  if (i > 250) {
     $('circle').first().remove();
     i-=1;
   }
-
   oldCursor.x = cursor.x;
   oldCursor.y = cursor.y;
 };
