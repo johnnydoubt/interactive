@@ -1,12 +1,15 @@
 $(function() {
-    $("#1").mouseover(function() {
-      let audio = new Audio('sounds/A.wav');
+    $(".effects").mouseover(function() {
+      let audio = new Audio('sounds/'+$(this).data("soundfile"));
         if (audio.paused) {
             audio.play();
         } else {
             audio.pause();
         }
     });
+    });
+
+    /*
     $("#2").mouseover(function() {
       let audio = new Audio('sounds/B.wav');
         if (audio.paused) {
@@ -192,3 +195,5 @@ $(function() {
         }
     });
 });
+
+*/
