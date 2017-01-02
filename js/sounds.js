@@ -16,7 +16,7 @@ $(function() {
       let audio = new Audio('sounds/'+$(this).data("soundfile"));
         if (audio.paused) {
             audio.play();
-            $(audio).prop("volume", 0.1);
+            $(audio).prop("volume", 0.08);
         } else {
             audio.pause();
         }
