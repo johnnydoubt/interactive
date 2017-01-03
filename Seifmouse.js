@@ -7,6 +7,7 @@ window.onload = function(){  //chargement de la page
 	canvas.width = W;
 	canvas.height = H;
 
+
 	let effects = []; // création d'un tableau d'effets
 	let mouse = {}; // création d'un objet mouse
 
